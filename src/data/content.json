@@ -1,0 +1,14 @@
+{
+    "categories": [
+        {
+            "title": "Categories For Women",
+            "data": [
+                {
+                    "title": "Hoodies & Sweatshirts",
+                    "description": "Explore Now!",
+                    "image": "./images/category-women-hoodie.jpg"
+                }
+            ]
+        }
+    ]
+}
