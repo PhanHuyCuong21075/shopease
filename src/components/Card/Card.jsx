@@ -1,21 +1,28 @@
 import React from 'react';
+import ArrowIcon from '../commom/ArrowIcon';
 
-const Card = ({ imagePath, title, description, actionArrow }) => {
+const Card = ({ imagePath, title, description, actionArrow, height, width }) => {
     return (
         <div className="flex flex-col p-6">
             <img
-                className="h-[240px] w-[200px] bg-cover bg-center border rounded hover:scale-105 cursor-pointer"
+                className={`h-auto max-w-[${width ? width : '200px'}] object-cover rounded-md mb-4`}
                 src={imagePath}
-                alt={title} // Thay 'Jeans' bằng {title} cho tính linh hoạt
+                alt="Jeans"
+                style={{ height: height ? height : '240px', width: width ? width : '200px' }}
             />
-            <div className="flex justify-between">
-                {/* Nếu cần thêm các phần tử ở đây, có thể viết vào */}
+            <div className="flex justify-between items-center">
+                <div className="flex flex-col">
+                    <p className="text-[16px] p-1">{title}</p>
+                    {description && (
+                        <p className="text-[12px] px-1 text-gray-600">{description}</p>
+                    )}
+                </div>
+                {actionArrow && (
+                    <span className='cursor-pointer pr-2 flex items-center'>
+                        <ArrowIcon />
+                    </span>
+                )}
             </div>
-            <div className="flex flex-col p-5">
-                <p className="text-[16px]">{title}</p>
-                {description && <p className="text-[14px]">{description}</p>}
-            </div>
-            {actionArrow && <div>{/* Thêm các biểu tượng hoặc nội dung cho actionArrow */}</div>}
         </div>
     );
 };

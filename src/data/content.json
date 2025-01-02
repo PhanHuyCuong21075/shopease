@@ -1,12 +1,57 @@
 {
     "categories": [
         {
-            "title": "Categories For Women",
+            "title": "Danh Mục Cho Nữ",
             "data": [
                 {
-                    "title": "Hoodies & Sweatshirts",
-                    "description": "Explore Now!",
-                    "image": "./images/category-women-hoodie.jpg"
+                    "title": "Áo Hoodie & Áo Len Phép Thuật",
+                    "description": "Hãy bước vào thế giới ấm áp và diệu kỳ cùng áo hoodie của chúng tôi.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Hoodie Thư Giãn",
+                    "description": "Phong cách nhẹ nhàng, thoải mái, hoàn hảo cho mọi tâm trạng.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Hoodie Phiêu Lưu",
+                    "description": "Người bạn đồng hành tuyệt vời cho mọi chuyến đi của bạn.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Hoodie Mộng Mơ",
+                    "description": "Quấn mình trong giấc mơ và những cảm giác ấm áp.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Hoodie Lễ Hội",
+                    "description": "Hòa mình vào những điệu nhảy với phong cách và sự thoải mái.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Hoodie Ngày Mưa",
+                    "description": "Hoàn hảo để nhâm nhi ca cao nóng và ngắm mưa rơi.",
+                    "image": "/assets/img/jeans.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Danh Mục Cho Nam",
+            "data": [
+                {
+                    "title": "Áo Sơ Mi Cực Chất",
+                    "description": "Thể hiện bản lĩnh với những chiếc áo sơ mi đậm chất riêng.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Sơ Mi Công Sở",
+                    "description": "Chinh phục mọi cuộc họp với phong cách lịch lãm.",
+                    "image": "/assets/img/jeans.jpg"
+                },
+                {
+                    "title": "Áo Sơ Mi Cuối Tuần",
+                    "description": "Thư giãn cùng những chiếc áo mang cảm giác như một cái ôm ấm áp.",
+                    "image": "/assets/img/jeans.jpg"
                 }
             ]
         }
